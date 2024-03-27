@@ -1,0 +1,15 @@
+{
+    "type": "smithing_transform",
+    "base": {
+        "item": "minecraft:diamond_boots"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "item": "minecraft:netherite_boots"
+    },
+	"template": {
+		"item": "minecraft:blaze_powder"
+	}
+}

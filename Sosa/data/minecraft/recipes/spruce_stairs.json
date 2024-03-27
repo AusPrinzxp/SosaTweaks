@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "b  ",
+        "bb ",
+        "bbb"
+    ],
+    "key": {
+        "b": {
+            "item": "minecraft:spruce_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:spruce_stairs",
+        "count": 8
+    }
+}
