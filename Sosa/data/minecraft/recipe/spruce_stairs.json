@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:spruce_stairs",
+        "id": "minecraft:spruce_stairs",
         "count": 8
     }
 }

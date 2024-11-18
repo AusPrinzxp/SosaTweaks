@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:mangrove_stairs",
+        "id": "minecraft:mangrove_stairs",
         "count": 8
     }
 }

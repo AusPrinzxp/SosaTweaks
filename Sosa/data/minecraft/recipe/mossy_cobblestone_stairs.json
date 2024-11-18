@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:mossy_cobblestone_stairs",
+        "id": "minecraft:mossy_cobblestone_stairs",
         "count": 8
     }
 }

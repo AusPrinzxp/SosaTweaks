@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:birch_stairs",
+        "id": "minecraft:birch_stairs",
         "count": 8
     }
 }

@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:cobbled_deepslate_stairs",
+        "id": "minecraft:cobbled_deepslate_stairs",
         "count": 8
     }
 }

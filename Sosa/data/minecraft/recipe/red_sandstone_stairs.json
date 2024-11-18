@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:red_sandstone_stairs",
+        "id": "minecraft:red_sandstone_stairs",
         "count": 8
     }
 }

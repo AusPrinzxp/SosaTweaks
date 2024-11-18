@@ -11,7 +11,7 @@
         }
     },
     "result": {
-        "item": "minecraft:dark_prismarine_stairs",
+        "id": "minecraft:dark_prismarine_stairs",
         "count": 8
     }
 }
