@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "b  ",
+        "bb ",
+        "bbb"
+    ],
+    "key": {
+        "b": {
+            "item": "minecraft:resin_bricks"
+        }
+    },
+    "result": {
+        "id": "minecraft:resin_brick_stairs",
+        "count": 8
+    }
+}
