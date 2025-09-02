@@ -1,0 +1,42 @@
+name: Release Datapack Zip
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-zip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Make dist folder
+        run: mkdir -p dist
+
+      - name: Zip datapack contents from SosaTweaks/Sosa
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd Sosa
+
+          # Required items
+          [ -f pack.mcmeta ] || { echo "Missing pack.mcmeta in SosaTweaks/Sosa"; exit 1; }
+          [ -d data ] || { echo "Missing data/ directory in SosaTweaks/Sosa"; exit 1; }
+
+          # Build include list; pack.png is optional
+          includes=(data pack.mcmeta)
+          [ -f pack.png ] && includes+=(pack.png)
+
+          zip -r "$GITHUB_WORKSPACE/dist/SosaTweaks-${{ github.ref_name }}.zip" "${includes[@]}"
+
+      - name: Upload datapack to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/SosaTweaks-${{ github.ref_name }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
