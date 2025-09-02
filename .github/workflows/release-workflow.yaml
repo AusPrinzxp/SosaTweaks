@@ -19,7 +19,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cd SosaTweaks/Sosa
+          cd Sosa
 
           # Required items
           [ -f pack.mcmeta ] || { echo "Missing pack.mcmeta in SosaTweaks/Sosa"; exit 1; }
