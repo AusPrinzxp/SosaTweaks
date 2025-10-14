@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:acacia_planks"
-        }
+        "b":  "minecraft:acacia_planks"
     },
     "result": {
         "id": "minecraft:acacia_stairs",

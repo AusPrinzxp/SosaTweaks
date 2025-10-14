@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:polished_diorite"
-        }
+        "b": "minecraft:polished_diorite"
     },
     "result": {
         "id": "minecraft:polished_diorite_stairs",

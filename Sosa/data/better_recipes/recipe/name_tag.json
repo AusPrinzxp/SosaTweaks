@@ -1,27 +1,13 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:paper"
-        },
-        {
-            "item": "minecraft:string"
-        },
-        {
-            "item": "minecraft:paper"
-        },
-        {
-            "item": "minecraft:iron_ingot"
-        },
-        {
-            "item": "minecraft:paper"
-        },
-        {
-            "item": "minecraft:paper"
-        },
-        {
-            "item": "minecraft:paper"
-        }
+        "minecraft:paper",
+        "minecraft:string",
+        "minecraft:paper",
+        "minecraft:iron_ingot",
+        "minecraft:paper",
+        "minecraft:paper",
+        "minecraft:paper"
     ],
     "result": {
         "id": "minecraft:name_tag",

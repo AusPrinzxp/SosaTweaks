@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:andesite"
-        }
+        "b": "minecraft:andesite"
     },
     "result": {
         "id": "minecraft:andesite_stairs",

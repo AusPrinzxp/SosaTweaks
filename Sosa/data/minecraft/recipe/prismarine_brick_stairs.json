@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:prismarine_bricks"
-        }
+        "b": "minecraft:prismarine_bricks"
     },
     "result": {
         "id": "minecraft:prismarine_brick_stairs",

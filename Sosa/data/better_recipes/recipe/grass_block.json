@@ -1,9 +1,7 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:podzol"
-        }
+        "minecraft:podzol"
     ],
     "result": {
         "id": "minecraft:grass_block",

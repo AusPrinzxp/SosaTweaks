@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:exposed_cut_copper"
-        }
+        "b": "minecraft:exposed_cut_copper"
     },
     "result": {
         "id": "minecraft:exposed_cut_copper_stairs",

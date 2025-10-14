@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:bamboo_mosaic"
-        }
+        "b": "minecraft:bamboo_mosaic"
     },
     "result": {
         "id": "minecraft:bamboo_mosaic_stairs",

@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:dark_oak_planks"
-        }
+        "b": "minecraft:dark_oak_planks"
     },
     "result": {
         "id": "minecraft:dark_oak_stairs",

@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:mossy_stone_bricks"
-        }
+        "b": "minecraft:mossy_stone_bricks"
     },
     "result": {
         "id": "minecraft:mossy_stone_brick_stairs",

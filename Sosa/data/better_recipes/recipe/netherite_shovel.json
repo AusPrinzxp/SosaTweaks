@@ -1,15 +1,9 @@
 {
-    "type": "smithing_transform",
-    "base": {
-        "item": "minecraft:diamond_shovel"
-    },
-    "addition": {
-        "item": "minecraft:netherite_ingot"
-    },
+    "type": "minecraft:smithing_trim",
+    "template": "minecraft:blaze_powder",
+    "base": "minecraft:diamond_shovel",
+    "addition": "minecraft:netherite_ingot",
     "result": {
         "id": "minecraft:netherite_shovel"
-    },
-	"template": {
-		"item": "minecraft:blaze_powder"
-	}
+    }
 }

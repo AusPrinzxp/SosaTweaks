@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:cobbled_deepslate"
-        }
+        "b": "minecraft:cobbled_deepslate"
     },
     "result": {
         "id": "minecraft:cobbled_deepslate_stairs",

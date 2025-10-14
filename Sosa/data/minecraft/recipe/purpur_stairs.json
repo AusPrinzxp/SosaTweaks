@@ -6,9 +6,7 @@
         "bbb"
     ],
     "key": {
-        "b": {
-            "item": "minecraft:purpur_block"
-        }
+        "b": "minecraft:purpur_block"
     },
     "result": {
         "id": "minecraft:purpur_stairs",
